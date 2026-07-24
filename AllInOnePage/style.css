@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 20px;
+}
+.home-page-container{
+    background-color: rgb(80,90,33);
+    max-width: 800px;
+    margin:  auto;
+    padding: 20px;
+}
+.centerText{
+    text-align: center;
+}
+.whitetext{
+    color: white;
+}
+.font20px{
+    font-size: 20px;
+}
+.font30px{
+    font-size: 30px;
+}
+.font120px{
+    font-size: 120px;
+}
+.opacity{
+    opacity: 0.2;
+}
+.primary-button{
+    background: none;
+    background-color: blue;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 5px;
+    cursor:pointer ;
+    display: inline-block;
+    text-decoration: none;
+}
+.primary-button:hover{
+    background-color: blueviolet;
+    
+}
+li{
+    list-style-position: inside;
+}
+.margin{
+    margin: 10px;
+}

@@ -1,0 +1,36 @@
+ * {
+        margin: 0;
+        padding: 0;
+      }
+      .section {
+        font-weight: bold;
+        font-size: 25;
+        color: green;
+        border-bottom: 3px solid rgb(37, 170, 37);
+      }
+      .section-content {
+        margin: 10px 0px;
+        display: block;
+      }
+      .lang-chip {
+        background-color: green;
+        padding: 5px;
+        display: inline-block;
+        border-radius: 5px;
+        margin: 10px 10px 20px 0;
+        color: white;
+      }
+      button {
+        background-color: green;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: rgb(126, 169, 126);
+      }
+      .section-container {
+        margin-bottom: 20px;
+      }
