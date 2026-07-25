@@ -1,0 +1,63 @@
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Arial;
+    text-align: center;
+
+    
+
+}
+.container .fa-brands{
+    color: blue;
+    font-size: 80px;
+}
+.container .notify::before{
+    position: absolute;
+    content: attr(data-count);
+    top: 0px;
+    right: -3px;
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+    padding: 5px 12px;
+    background-color:red;
+    border-radius: 50px;
+    line-height: 100%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,2);
+    opacity: 0;
+    transition: opacity 0.1s ease-out;
+    animation: animate 0.9s ease-out infinite  alternate;
+}
+@keyframes animate{
+    0%{
+        transform: scale(1);
+    }
+     100%{
+        transform: scale(1.09);
+    }
+}
+.notify.add-numb::before{
+    opacity: 1;
+}
+.container .btn{
+    position: absolute;
+    left: -25px;
+    top: 100px;
+    height: 40;
+    width: 120px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #111755;
+    background-color: #1A237E;
+    border-radius: 3px;
+    line-height: 40px;
+    outline: none;
+    cursor: pointer;
+}
+.container .btn:hover{
+    background-color: #161d6a;
+
+}
