@@ -1,3 +1,6 @@
+let icon = document.querySelector('#icon');
+let toggles = document.querySelector('.toggle')
+
 let scroll1 = window.pageYOffset;
 window.onscroll = function () {
     let scroll2 = window.pageYOffset;
@@ -11,3 +14,7 @@ window.onscroll = function () {
     scroll1 = scroll2;
 
 }
+icon.addEventListener('click', () => {
+    toggles.classList.toggle('show');
+
+})

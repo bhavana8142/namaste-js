@@ -108,7 +108,7 @@ html{
     scroll-behavior: smooth;
 }
 
-i{
+#icon{
     position: fixed;
     margin: 20px 25px;
     font-size: 40px;
@@ -120,4 +120,25 @@ i{
 }
 .sideImage{
     margin-left: 260px;
+}
+#scrollup{
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   font-size: 40px;
+   color: blue;
+   transition: .5s;
+   cursor: pointer;
+   opacity: 0;
+   pointer-events: none;
+   transition: opacity .3s ease-in-out ;
+
+}
+#scrollup:hover{
+  color: blueviolet;
+   transition: .5s;
+}
+#scrollup.scrollup1{
+    opacity: 1;
+    pointer-events: auto;
 }
