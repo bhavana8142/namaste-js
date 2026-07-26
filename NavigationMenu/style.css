@@ -42,12 +42,12 @@ li a:hover{
 
 }
 .sec1{
-    background: url(rcb.jpg) no-repeat;
+    background: url(../Images/rcb.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
 }
 .sec2{
-    background: url(king.jpg) no-repeat;
+    background: url(../Images/king.jpg) no-repeat;
     background-size: cover;
     
     height: 100vh;
