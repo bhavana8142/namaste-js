@@ -1,0 +1,60 @@
+body{
+    font-family: 'Roboto';
+    background-color: #151515;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.loading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.percent{
+    color: #999;
+    font-size: 100px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.progress-bar{
+    height: 21px;
+    width: 406px;
+    background-color: #111;
+    border-radius: 13px;
+    padding: 3px;
+    box-sizing: border-box;
+
+}
+.progress{
+    height: 20px;
+    width: 200px;
+    background-color: #f60d54;
+    border-radius: 13px;
+
+}
+.text-blink{
+    animation: blink .7s ease-in-out .1s;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: .2;
+
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.text{
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    display: none;
+}
